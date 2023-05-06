@@ -52,3 +52,6 @@ production:
   database: protospace_39154_production
   username: protospace_39154
   password: <%= ENV['PROTOSPACE_39154_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+
+
